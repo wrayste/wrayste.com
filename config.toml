@@ -2,3 +2,6 @@ baseURL = "https://www.wrayste.com/"
 languageCode = "en-gb"
 title = "My New Hugo Site"
 theme = "cactus-plus"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
